@@ -644,7 +644,7 @@ img {
     display: none;
   }
 
-  .navbar.open .nav-links {
+  .nav-container.open .nav-links {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -655,6 +655,7 @@ img {
     border-bottom: 1px solid var(--border);
     padding: 20px 24px;
     gap: 16px;
+    z-index: 101;
   }
 
   .mobile-menu-btn {
